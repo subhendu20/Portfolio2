@@ -280,13 +280,18 @@ main section#skill {
 }
 
 main section#skill h1 {
-          font-size: 2.5rem;
+          font-size: 2rem;
           margin: 10rem 0rem;
           transition: 0.5s ease-in-out;
           font-weight: 500;
           width: fit-content;
-          border-bottom: 0.1rem solid black;
+          padding: 1rem;
+          display: flex;
+          align-items: center;
+          border-radius: 0.5rem;
+          background-color: rgb(185, 181, 181);
 
+          color: rgb(66, 65, 65);
           transition: 0.3s;
 
 
@@ -294,9 +299,9 @@ main section#skill h1 {
 }
 
 main section#skill:hover h1 {
-          width: 100%;
+          transform: scale(1.1);
           font-weight: 600;
-          color: rgb(22, 161, 204);
+          color: rgb(10, 10, 10);
           
 
 }
@@ -369,12 +374,17 @@ main section#project {
 }
 
 main section#project h1 {
-          font-size: 2.5rem;
+          font-size: 2rem;
           margin: 10rem 0rem;
           transition: 0.5s ease-in-out;
           font-weight: 500;
           width: fit-content;
-          border-bottom: 0.1rem solid black;
+          display: flex;
+          align-items: center;
+          background-color: rgb(185, 181, 181);
+          color: rgb(66, 65, 65);
+          padding: 1rem;
+          border-radius: 0.5rem;
 
           transition: 0.3s ease;
 
@@ -382,10 +392,10 @@ main section#project h1 {
 }
 
 main section#project:hover h1 {
+          transform: scale(1.1);
           font-weight: 600;
-          color: rgb(22, 161, 204);
-          width: auto;
-
+          color: rgb(10, 10, 10);
+         
 
 }
 
