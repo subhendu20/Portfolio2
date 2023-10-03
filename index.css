@@ -1,0 +1,662 @@
+* {
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+}
+
+html {
+          font-size: 62.5%;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+                    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+                    sans-serif;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+          width: 100%;
+          height: auto;
+          display: flex;
+          justify-content: space-between;
+          padding: 1rem 2rem;
+          align-items: center;
+
+}
+
+header span {
+          width: 30%;
+          font-size: 2.5rem;
+          font-weight: 700;
+          color: rgb(14, 122, 155);
+}
+
+header nav {
+          width: 30%;
+
+}
+
+header nav ul {
+          width: 80%;
+          margin: auto;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          list-style-type: none;
+
+}
+
+header nav ul li p {
+          font-size: 1.6rem;
+          color: black;
+          transition: 0.4s;
+          cursor: pointer;
+          font-weight: 400;
+
+}
+
+header nav ul li p:hover {
+          color: rgb(14, 122, 155);
+}
+
+
+header ul.socials {
+          width: 30%;
+          display: flex;
+          flex-direction: row-reverse;
+          align-items: center;
+          list-style-type: none;
+}
+
+header ul.socials li a {
+          text-decoration: none;
+          color: black;
+}
+
+header ul.socials li a i {
+          font-size: 2rem;
+          margin: 0rem 1rem;
+}
+
+header ul.socials i:hover {
+          color: rgb(14, 122, 155);
+}
+
+
+main {
+          width: 100%;
+          height: auto;
+}
+
+main section#window1 {
+          width: 100%;
+          height: 95vh;
+          padding: 4% 2%;
+}
+
+div#chat-canvas {
+          width: 100%;
+          height: 100%;
+          background-image: url('./software-developer-6521720.jpg');
+          background-position: center center;
+          background-size: cover;
+
+          border-radius: 1.5rem;
+          display: flex;
+          flex-direction: column;
+          padding: 5% 30%;
+          justify-content: space-evenly;
+
+}
+
+div#chat-canvas span.Chat {
+          width: fit-content;
+          height: auto;
+          padding: 1.5rem;
+          border-radius: 1.5rem;
+          background-color: rgb(196, 249, 253);
+          color: rgb(3, 107, 110);
+          font-size: 1.5rem;
+          font-weight: 500;
+          border-top-left-radius: 0rem;
+
+}
+
+#name {
+          font-size: 2rem;
+          animation: textani 1s !important;
+}
+
+#about-line {
+          animation: textani 3s !important;
+
+}
+
+#desc {
+          max-width: 50%;
+          animation: textani 5s !important;
+}
+
+#btn-work {
+          animation: textani 7s !important;
+}
+
+@keyframes textani {
+          0% {
+                    display: none;
+                    opacity: 0;
+          }
+
+          80% {
+                    display: none;
+                    opacity: 0;
+          }
+
+          90% {
+                    display: block;
+                    opacity: 0.5;
+          }
+
+          100% {
+                    display: block;
+                    opacity: 1;
+          }
+
+}
+
+div#chat-canvas button#btn-work {
+          width: fit-content;
+          border-radius: 1.5rem;
+          border-top-left-radius: 0rem;
+          border: none;
+          background-color: rgb(14, 122, 155);
+          color: white;
+          font-weight: 300 !important;
+          padding: 1.5rem;
+          font-size: 1.5rem;
+          transition: 0.4s;
+
+
+}
+
+div#chat-canvas button#btn-work:hover {
+          background-color: rgb(19, 145, 184);
+
+}
+
+div#chat-canvas button#btn-work i {
+          display: inline-block;
+
+}
+
+main section#about {
+          width: 100%;
+          padding: 5% 10%;
+
+
+
+}
+
+main section#about p {
+          font-weight: 500;
+          font-size: 3rem;
+          color: black;
+          line-height: 6rem;
+}
+
+main section#education {
+          width: 100%;
+          margin: auto;
+          min-height: 20rem;
+          background-color: rgb(27, 27, 27);
+          display: flex;
+          justify-content: space-between;
+          padding: 10%;
+}
+
+main section#education div {
+
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+
+
+}
+
+main section#education div img {
+          width: 20rem;
+          height: 20rem;
+          margin: 0.5rem;
+          background-color: rgb(14, 164, 175);
+          padding: 1rem;
+          border-radius: 1rem;
+          box-shadow: rgba(14, 164, 175, 0.35) 0px 5px 15px;
+
+}
+
+main section#education div img:hover {
+          animation: tilt 0.8s;
+}
+
+main section#education div span.edu-details {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+
+}
+
+main section#education div span p {
+
+
+          font-weight: 500;
+
+}
+
+.years {
+          color: white;
+          font-size: 3rem;
+
+}
+
+.ins-name {
+
+          font-size: 2.5rem;
+          color: rgb(14, 122, 155);
+}
+
+.grade {
+          color: gray;
+          font-size: 1.5rem;
+          font-weight: 300 !important;
+}
+
+main section#skill {
+          width: 100%;
+          min-height: 10rem;
+          padding: 2% 10%;
+          transition: 0.3s;
+
+}
+
+main section#skill h1 {
+          font-size: 2.5rem;
+          margin: 10rem 0rem;
+          transition: 0.5s ease-in-out;
+          font-weight: 500;
+          width: fit-content;
+          border-bottom: 0.1rem solid black;
+
+          transition: 0.3s;
+
+
+
+}
+
+main section#skill:hover h1 {
+          width: 100%;
+          font-weight: 600;
+          color: rgb(22, 161, 204);
+          
+
+}
+
+main section#skill div {
+          width: 100%;
+
+          display: flex;
+          justify-content: space-between;
+          margin: 10rem auto;
+
+
+}
+
+main section#skill div img.skill-img {
+          width: 15rem;
+          height: 15rem;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          padding: 1rem;
+          border-radius: 1rem;
+          background-color: rgb(209, 205, 205);
+          animation: -out 1s;
+}
+
+main section#skill div img:hover {
+          animation: tilt forwards 1s;
+}
+
+@keyframes tilt {
+
+          0%,
+          50%,
+          100%,
+          25%,
+          75% {
+                    transform: rotate(0deg);
+
+          }
+
+          12.5% {
+                    transform: rotate(15deg);
+
+          }
+
+          37.5% {
+                    transform: rotate(-15deg);
+          }
+
+          62.5% {
+                    transform: rotate(8deg);
+
+          }
+
+          87.5% {
+                    transform: rotate(-8deg);
+
+          }
+
+
+}
+
+.none {
+          display: none;
+}
+
+main section#project {
+          width: 100%;
+          min-height: 10rem;
+          padding: 5% 10%;
+}
+
+main section#project h1 {
+          font-size: 2.5rem;
+          margin: 10rem 0rem;
+          transition: 0.5s ease-in-out;
+          font-weight: 500;
+          width: fit-content;
+          border-bottom: 0.1rem solid black;
+
+          transition: 0.3s ease;
+
+
+}
+
+main section#project:hover h1 {
+          font-weight: 600;
+          color: rgb(22, 161, 204);
+          width: auto;
+
+
+}
+
+main section#project div.projects {
+          width: 70%;
+          margin: 20rem auto;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+}
+
+main section#project div.projects:nth-child(2n) {
+          width: 70%;
+          margin: 10rem auto;
+          display: flex;
+          flex-direction: row-reverse;
+          justify-content: space-between;
+          align-items: center;
+}
+
+main section#project div.projects div.project-desc {
+          display: flex;
+          max-width: 40%;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+}
+
+main section#project div.projects div.project-desc h2 {
+          font-size: 2rem;
+          color: rgb(3, 92, 99);
+          font-weight: 500;
+          margin: 0.5rem;
+
+}
+
+main section#project div.projects div.project-desc p {
+          font-size: 1.5rem;
+          color: black;
+          font-weight: 400;
+          margin: 0.5rem;
+          text-align: justify;
+}
+
+main section#project div.projects div.project-desc a {
+          text-decoration: none;
+          color: rgb(1, 49, 53);
+          transition: 0.4s;
+          margin: 0.5rem;
+          font-size: 1.5rem;
+          border-bottom: 0.1rem solid rgb(1, 49, 53);
+
+
+}
+
+main section#project div.projects div.project-desc a:hover {
+          color: rgb(3, 92, 99);
+}
+
+main section#project div.projects img {
+          width: 45%;
+          height: 30rem;
+          border-radius: 1rem;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+footer#contact {
+          width: 100%;
+          height: auto;
+          border-top-right-radius: 4rem;
+          border-top-left-radius: 4rem;
+          background-color: rgb(27, 27, 27);
+          padding: 5rem 10%;
+}
+
+footer#contact div {
+          width: 90%;
+          margin: auto;
+          display: flex;
+          justify-content: space-between;
+
+}
+
+footer#contact div span {
+          display: flex;
+          color: rgb(189, 184, 184);
+          align-items: center;
+          font-size: 2rem;
+}
+
+footer#contact div span i {
+          font-size: 3rem;
+          margin: 1.5rem;
+          color: rgb(3, 92, 99);
+}
+
+footer#contact div span p {
+          font-weight: 400 !important;
+}
+
+p#c-msg {
+          text-align: center;
+          color: gray;
+          font-size: 1.5rem;
+          font-weight: 300 !important;
+          margin: 1rem;
+}
+
+/* media query */
+@media (max-width:1000px) {
+          html{
+                    font-size: 50%;
+          }
+          
+header nav ul{
+          width: 100%;
+}
+          
+}
+@media (max-width:800px) {
+          html{
+                    font-size: 45%;
+
+          }
+         
+          main section#project div.projects {
+                    flex-direction: column;
+                    width: 90%;
+          }
+
+          main section#project div.projects:nth-child(2n) {
+                    flex-direction: column;
+                    width: 90%;
+          }
+          main section#project div.projects img {
+                    width: 70%;
+                    margin: auto;
+          }
+
+          main section#project div.projects div.project-desc {
+                    width: 70%;
+          }
+          main section#about p {
+                    font-size: 2.5rem;
+          }
+}
+
+@media (max-width : 600px) {
+          html {
+                    font-size: 35%;
+          }
+
+          main {
+                    overflow-x: hidden;
+          }
+
+          main section#project {
+                    padding: 5%;
+          }
+
+          main section#project div.projects {
+                  
+                    width: 100%;
+          }
+
+          main section#project div.projects:nth-child(2n) {
+                    
+                    width: 100%;
+          }
+
+          main section#project div.projects img {
+                    width: 80%;
+                    margin: auto;
+          }
+
+          main section#project div.projects div.project-desc {
+                    width: 90%;
+          }
+
+          main section#skill div {
+                    width: 90%;
+
+          }
+
+          main section#skill div img.skill-img {
+                    width: 7rem;
+                    height: 7rem;
+          }
+
+          main section#project div.projects div.project-desc {
+                    max-width: 90%;
+                    margin: 5rem auto;
+          }
+
+          main section#education {
+                    padding: 10% 5%;
+          }
+
+          #name {
+                    font-size: 3rem !important;
+          }
+
+          div#chat-canvas {
+                    padding: 5% 10%;
+          }
+
+          div#chat-canvas span.Chat {
+                    font-size: 2.5rem;
+          }
+
+          div#chat-canvas button#btn-work {
+                    font-size: 2.5rem;
+          }
+
+          header nav {
+                    width: auto !important;
+
+          }
+
+          header nav ul {
+                    width: auto !important;
+          }
+
+
+
+
+          header nav ul li p {
+                    margin: 0rem 1rem;
+                    font-weight: 500;
+
+          }
+
+          main section#window1 {
+                    padding: 5% 8%;
+          }
+
+          header ul.socials {
+                    width: fit-content;
+                    position: fixed;
+                    flex-direction: column;
+                    right: 0;
+                    background-color: white;
+                    top: 40%;
+                    border-top-left-radius: 1rem;
+                    border-bottom-left-radius: 1rem;
+                    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+                    padding: 0 !important;
+          }
+
+          header ul.socials li {
+                    margin: 2rem 0rem;
+          }
+
+          header ul.socials li a i {
+                    font-size: 3rem;
+          }
+
+          footer#contact {
+                    padding: 5rem 2rem;
+          }
+
+          footer#contact div {
+                    width: 100%;
+                    flex-direction: column;
+
+          }
+
+          main section#about p {
+                    font-size: 2.5rem;
+          }
+}
