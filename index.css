@@ -93,7 +93,9 @@ main section#window1 {
           padding: 4% 2%;
 }
 
-div#chat-canvas {
+
+
+div#chat-canvas{
           width: 100%;
           height: 100%;
           background-image: url('./software-developer-6521720.jpg');
@@ -105,7 +107,6 @@ div#chat-canvas {
           flex-direction: column;
           padding: 5% 30%;
           justify-content: space-evenly;
-
 }
 
 div#chat-canvas span.Chat {
@@ -610,6 +611,9 @@ header nav ul{
 
           div#chat-canvas button#btn-work {
                     font-size: 2.5rem;
+          }
+          header{
+                    padding: 1rem;
           }
 
           header nav {
